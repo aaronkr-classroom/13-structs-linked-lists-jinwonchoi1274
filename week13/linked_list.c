@@ -46,4 +46,5 @@ void main() {
 		free(p);			//기억했던 주소를 사용하요 노드를 삭제함
 	}
 	p_tail = p_head; //반복문을 나오면 p_head 값은 NULL p_tail값도 NULL로 변경함
+	return 0;
 }
